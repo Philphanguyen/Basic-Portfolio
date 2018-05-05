@@ -1,0 +1,160 @@
+
+body {
+    margin: auto;
+    background-image: url("../images/background.png");
+    font-family: 'Arial', 'Helvetica Nueu', Helvetica, sans-serif;
+    width: 960px;
+    margin-bottom:100px
+}
+
+header {
+    background-color: #ffffff;
+    border: 25px #cccccc;
+    width:500%;
+    margin-left: -200%;
+    height: 81.81px;
+    z-index: -1;
+}
+
+.nameplate {
+    position: relative;
+    bottom: 81.81px;
+    float:left;
+    background-color:#4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    width: auto;
+    font-size:32px;
+    font-weight: bold;
+    color: white;
+    border: 25px #cccccc;
+    padding: 25px;
+    align-content: center;
+    margin-left:auto;
+
+}
+
+#navlinks {
+    position: relative;
+    bottom: 81.81px;
+    font-family: 'Arial', 'Helvetica Nueu', Helvetica, sans-serif;
+    float:right;
+    width:auto;
+    padding:25px;
+    align-content: center;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+#portfolio {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left:10px;
+    padding-right: 10px;
+    border-color: #dddddd;
+    border-width: 1px;
+    border-left-style: solid;
+    border-right-style: solid;
+}
+
+h1 {
+    clear: left;
+    font-size: 26px;
+    color:#4aaaa5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:20px;
+    margin-right:20px;
+}
+
+hr {
+    border-color:#dddddd;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+footer {
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #666666;
+    border: 10px #4aaaa5;
+    border-top-style: solid;
+    width:100%;
+    height: 50px;
+    text-align: center;
+    padding-top:10px;
+    color: #dddddd;
+    margin-top:15px;
+}
+
+#aboutme {
+    position: relative;
+    bottom: 50px;
+    border-width: 1px;
+    border-color: #dddddd;
+    border-style: solid;
+    clear: both;
+    background-color: #ffffff;
+    width:100%;
+    margin-bottom:50px;
+}
+
+
+#me {
+    float:left
+}
+
+article {
+    font-size:20px;
+    line-height:30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom:20px;
+}
+
+#projects {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#myportfolio {
+    position: relative;
+    bottom: 50px;
+    border-width: 1px;
+    border-color: #dddddd;
+    border-style: solid;
+    clear: both;
+    background-color: #ffffff;
+    width:100%;
+}
+
+#contact {
+    position: relative;
+    bottom: 50px;
+    border-width: 1px;
+    border-color: #dddddd;
+    border-style: solid;
+    clear: both;
+    background-color: #ffffff;
+    width:100%; 
+}
+
+.container {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#submit {
+    background-color: #4aaaa5;
+    border: none;
+    color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size:16px;
+}
